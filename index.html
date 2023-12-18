@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <h1 class="nav-brand">Name variations</h1>
+    </nav>
+
+    <main class="container">
+      <div>
+        <label for="component-name" class="label">Enter your name</label>
+        <input
+          type="text"
+          class="input"
+          placeholder="Your name"
+          id="your-name"
+          autocomplete="off"
+        />
+      </div>
+
+      <table class="table" border="1">
+        <thead>
+          <tr>
+            <th width="200px">Variation</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Number of Character</td>
+            <td id="answer1"></td>
+          </tr>
+          <tr>
+            <td>First Character</td>
+            <td id="answer2"></td>
+          </tr>
+          <tr>
+            <td>Last Character</td>
+            <td id="answer3"></td>
+          </tr>
+          <tr>
+            <td>Lower Case</td>
+            <td id="answer4"></td>
+          </tr>
+          <tr>
+            <td>Upper Case</td>
+            <td id="answer5"></td>
+          </tr>
+          <tr>
+            <td>Capitalize</td>
+            <td id="answer6"></td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
