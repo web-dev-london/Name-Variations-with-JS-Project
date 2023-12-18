@@ -39,9 +39,6 @@ name.addEventListener("keyup", () => {
   answer3.textContent = getLastChar(value);
   answer4.textContent = getLower(value);
   answer5.textContent = getUpper(value);
-  if (value) {
-    answer6.textContent = getCapitalized(value);
-  } else {
-    answer6.textContent = "";
-  }
+  if (value) answer6.textContent = getCapitalized(value);
+  return;
 });
